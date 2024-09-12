@@ -3,26 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
       integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
       crossorigin="anonymous"
     />
-
+    <script src="https://kit.fontawesome.com/915fb3780d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/helper.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Tinyone</title>
   </head>
   <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                
-            </div>
+    <section class="heroSection">
+      <div class="container">
+        <div class="row mb-30">
+          <div class="col-md-12">
+            <nav class="navbar navbar-default mainNavbar">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button
+                    type="button"
+                    class="navbar-toggle navToggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false"
+                  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html"
+                    ><img
+                      src="./assets/images/logo.png"
+                      alt="logo"
+                      title="logo"
+                  /></a>
+                </div>
+
+                <div
+                  class="collapse navbar-collapse"
+                  id="bs-example-navbar-collapse-1"
+                >
+                  <ul class="nav navbar-nav navbar-right nav-pri">
+                    <li><a href="javascript:;">Feature</a></li>
+                    <li><a href="javascript:;">Support</a></li>
+                    <li><a href="javascript:;">Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="heroDetails mt-70">
+              <h1 class="pri-heading">Inspire your inspiration</h1>
+              <h3 class="sec-heading">
+                Simple to use for your app, products showcase and your
+                inspiration
+              </h3>
+              <p class="para mb-30">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vitae eros eget tellus tristique bibendum. Donec rutrum
+                sed sem quis venenatis. Proin viverra risus a eros volutpat
+                tempor. In quis arcu et eros porta lobortis sit
+              </p>
+              <ul class="heroIcons">
+                <li><a href="javascript:;"><i class="fa-brands fa-apple fa-3x"></i></a></li>
+                <li><a href="javascript:;"><i class="fa-solid fa-mobile fa-3x"></i></a></li>
+                <li><a href="javascript:;"><i class="fa-brands fa-windows fa-3x"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <img
+                class="col-md-offset-5"
+                src="./assets/images/iPad.png"
+                alt="ipad"
+                title="ipad"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>

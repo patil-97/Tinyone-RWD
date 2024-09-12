@@ -1,0 +1,73 @@
+:root {
+    --clr-pri : #fcdb00;
+    --clr-sec : #010101;
+    --clr-ter: #313841;
+    --clr-para: #555555;
+}
+
+body{
+    font-family: "PT Sans", sans-serif;
+}
+
+/** heroSection  */
+
+.heroSection{
+    background-color:var(--clr-pri);
+    padding:60px 0 100px;
+}
+
+.navbar-default.mainNavbar {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle.navToggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle.navToggle:focus, .navbar-default .navbar-toggle.navToggle:hover {
+    background-color: transparent;
+    border: transparent;
+}
+
+.navbar-header a.navbar-brand{
+    padding:0;
+}
+
+.navbar-default .navbar-right li a{
+    color: var(--clr-sec);
+    font-size:22px;
+    font-weight:bold;
+    
+}
+
+.nav-pri li a{
+    position:relative;
+}
+
+.nav-pri li a::before{
+    content: "";
+    position: absolute;
+    height : 4px;
+    width:0;
+    left:50%;
+    bottom:0;
+    background-color:var(--clr-sec);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-pri li a:hover::before,
+.nav-pri li a:focus::before,
+.nav-pri li a:active::before{
+    width:100%;
+    left:0;
+
+}
+
+.heroDetails {
+    width: 400px;
+}
+
+.para{
+    color: var(--clr-para);
+}

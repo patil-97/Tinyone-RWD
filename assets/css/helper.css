@@ -1,0 +1,40 @@
+
+ul,li,a{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.heroIcons li{
+    margin-right: 35px;
+}
+
+.heroIcons li a i{
+    color: #010101;
+}
+
+/* ! margin */
+.mb-30{
+    margin-bottom:30px;
+}
+
+.mt-70{
+    margin-top:70px;
+}
+
+/* ! typography  */
+.pri-heading {
+    font-size:32px;
+    font-weight:bold;
+    color: var(--clr-sec);
+    margin-bottom: 20px;
+}
+
+.sec-heading{
+    font-size:20px;
+    color: var(--clr-ter);
+    margin-bottom:20px;
+}
