@@ -3,6 +3,7 @@
     --clr-sec : #010101;
     --clr-ter: #313841;
     --clr-para: #555555;
+    --clr-89: #898989;
 }
 
 body{
@@ -65,7 +66,7 @@ body{
 }
 
 .heroDetails {
-    width: 400px;
+    /* width: 400px; */
 }
 
 .para{
@@ -84,4 +85,28 @@ body{
 .heroIcons li a i:hover{
     transform : rotate(360deg);
     color: blue;
+}
+
+/* ! featureSection */
+
+.featureSection{
+    padding: 115px 0 80px;
+}
+
+.featureSection .pri-heading{
+    margin-top:0;
+}
+
+.featureDetails{
+    padding: 0 40px;
+}
+
+.list-details{
+    color: var(--clr-89);
+}
+
+.list-grp h3{
+    margin-top:0;
+    color: var(--clr-sec);
+    font-size:22px;
 }

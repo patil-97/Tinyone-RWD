@@ -1,32 +1,41 @@
-
-ul,li,a{
-    display: inline-block;
+ul,
+li,
+a {
+  display: inline-block;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 /* ! margin */
-.mb-30{
-    margin-bottom:30px;
+.mb-30 {
+  margin-bottom: 30px;
 }
 
-.mt-70{
-    margin-top:70px;
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+.mb-80{
+    margin-bottom: 80px;
 }
 
 /* ! typography  */
 .pri-heading {
-    font-size:32px;
-    font-weight:bold;
-    color: var(--clr-sec);
-    margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--clr-sec);
+  margin-bottom: 20px;
 }
 
-.sec-heading{
-    font-size:20px;
-    color: var(--clr-ter);
-    margin-bottom:20px;
+.sec-heading {
+  font-size: 20px;
+  color: var(--clr-ter);
+  margin-bottom: 20px;
 }
