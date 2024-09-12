@@ -71,3 +71,17 @@ body{
 .para{
     color: var(--clr-para);
 }
+
+.heroIcons li{
+    margin-right: 35px;
+}
+
+.heroIcons li a i{
+    color: #010101;
+    transition: all 0.2s linear;
+}
+
+.heroIcons li a i:hover{
+    transform : rotate(360deg);
+    color: blue;
+}

@@ -8,14 +8,6 @@ ul{
     padding: 0;
 }
 
-.heroIcons li{
-    margin-right: 35px;
-}
-
-.heroIcons li a i{
-    color: #010101;
-}
-
 /* ! margin */
 .mb-30{
     margin-bottom:30px;
