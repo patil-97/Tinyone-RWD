@@ -214,4 +214,14 @@ label{
     .addressDetails{
         margin-top:100px;
     }
+
+    .navbar-default .navbar-toggle.navToggle:focus, .navbar-default .navbar-toggle.navToggle{
+        background-color: transparent;
+        border: none;
+    }
+
+    .navbar-default .navbar-toggle.navToggle:focus, .navbar-default .navbar-toggle.navToggle:is(:hover,:focus,:active) {
+        background-color: transparent;
+        border: none;
+    }
 }
