@@ -110,3 +110,95 @@ body{
     color: var(--clr-sec);
     font-size:22px;
 }
+
+/* ! FooterSection  */
+
+.footerSection{
+    background-color: var(--clr-sec);
+    padding: 95px 0 135px;
+}
+
+.footerSection .pri-heading{
+    color:var(--clr-pri);
+
+}
+
+.footerSection .sec-heading{
+    color:var(--clr-89);
+}
+
+.emailInput{
+    height:50px;
+    padding:15px 25px;
+}
+
+.emailInput::placeholder{
+    font-size: 16px;
+    color:var(--clr-89);
+}
+
+.emailBtn{
+    height:50px;
+    width:150px;
+    background-color:var(--clr-pri);
+    font-weight:bold;
+    color:var(--clr-sec);
+    border-radius:5px;
+    border:none;
+    transition: all 0.2s linear;
+}
+
+.emailBtn:hover{
+    background-color:#fff;
+    color:var(--clr-sec);
+}
+
+.inputbtn{
+    margin-bottom:80px;
+}
+
+label{
+    display:none;
+}
+
+.footerSection .heroIcons a i{
+    color:var(--clr-pri);
+}
+
+
+.addressDetails ul li{
+    display:block
+}
+
+.addressDetails{
+    margin-top:125px;
+    color:#fff;
+}
+
+.addressDetails a{
+    color:inherit;
+}
+
+@media all and (max-width:770px){
+
+    .emailInput{
+        margin-bottom:20px;
+    }
+
+    .heroSection figure{
+        margin-top: 20px;
+        text-align:center;
+    }
+
+    .heroDetails{
+        margin-top:0;
+    }
+
+    .mb-70{
+        margin-bottom:20px;
+    }
+
+    .mb-80{
+        margin-bottom:25px;
+    }
+}
